@@ -207,3 +207,28 @@ h4 {
     width: 80%;
     box-shadow: 10px 10px 60px black
 }
+
+h6 {
+    font-size: 20px;
+}
+
+h5 {
+    text-align: left;
+    width: 50%;
+    margin-left: 400px;
+    background-color: rgb(167, 163, 163);
+    padding: 5px 10px;
+    border: 50px solid sandybrown;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 500px;
+    font-family: 'Lobster', cursive;
+    background-color: black;
+    padding: 100px;
+    background: cover;
+
+
+}
