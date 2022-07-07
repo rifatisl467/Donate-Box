@@ -4,19 +4,21 @@ body {
 
 }
 
-
-
 .middle {
     text-align: center;
-    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 h1 {
     font-size: 80px;
+    color: white;
+
 }
 
-h4 {
+h3 {
     font-size: 30px;
+    color: white;
 }
 
 .background-image {
@@ -24,13 +26,148 @@ h4 {
     background-image: url(images/donation13.jpg);
     background-size: cover;
     padding-top: 150px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     padding-left: 100px;
     padding-right: 100px;
     border: 0%;
-
-
     background-repeat: no-repeat;
+}
+
+.button {
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+h4 {
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+.box-1 {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    color: crimson;
+    background-color: bisque;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#USD {
+    color: rgb(177, 168, 168);
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.headline {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 2px;
+
+}
+
+.para {
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
+.container-2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#Food {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 40px;
+    color: crimson;
+    background-color: bisque;
+    box-shadow: 10px 5px 50px black;
+
+
+}
+
+#Shelter {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 40px;
+    color: rgb(19, 22, 150);
+    background-color: rgb(22, 208, 221);
+    box-shadow: 10px 5px 50px black;
+
+}
+
+#Education {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 40px;
+    color: crimson;
+    background-color: bisque;
+    box-shadow: 10px 5px 50px black;
+}
+
+.flex {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 50px;
+
+
+}
+
+.half-width {
+    width: 40%;
+}
+
+.half-width img {
+    width: 100%;
+    margin-left: 300px;
+    box-shadow: 10px 10px 60px black;
+}
+
+.head2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.para3 {
+    font-size: 20px;
+    font-weight: 300;
 }
