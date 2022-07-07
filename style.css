@@ -153,21 +153,57 @@ h4 {
 }
 
 .half-width {
-    width: 40%;
+    width: 100%;
 }
 
 .half-width img {
-    width: 100%;
-    margin-left: 300px;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 100px;
     box-shadow: 10px 10px 60px black;
 }
 
 .head2 {
     font-size: 60px;
     font-weight: 700;
+
 }
 
 .para3 {
     font-size: 20px;
     font-weight: 300;
+    margin-bottom: 40px;
+
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: rgb(201, 73, 14);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+.head3 {
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.para4 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 50px;
+
+}
+
+.image {
+    margin-right: 700px;
+    width: 80%;
+    box-shadow: 10px 10px 60px black
 }
